@@ -14,7 +14,6 @@ const API = {
       body: JSON.stringify(contactObject)
     })
     .then(response => response.json())
-    // .then(() => this.getContacts())
   }
 }
 

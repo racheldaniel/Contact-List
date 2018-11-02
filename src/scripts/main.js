@@ -11,6 +11,6 @@ contactList.getAndRender()
 document.addEventListener("submit", (e) => {
   e.preventDefault();
   const currentContact = domForm.generateContact()
-  domForm.collectAndPost(currentContact).then(contactList.getAndRender())
+  domForm.collectAndPost(currentContact).then(()=> contactList.getAndRender())
 
 })
