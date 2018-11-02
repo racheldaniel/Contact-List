@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Leslie Knope",
+      "phone": "827-555-2916",
+      "address": "2057 Park Way Pawnee, IN 93726"
+    },
+    {
+      "id": 2,
+      "name": "Ann Perkins",
+      "phone": "827-555-1274",
+      "address": "298 Pit Pl Pawnee, IN 93726"
+    }
+  ]
+}
