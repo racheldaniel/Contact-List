@@ -1,0 +1,36 @@
+body {
+  background-color: #F9F2EA
+}
+
+.form {
+  max-width: 300px;
+
+}
+
+fieldset {
+  background-color: #815355;
+  color: #F9F2EA
+}
+
+button {
+  font-size: 1em;
+  margin-top: 10px;
+  background-color: #383F51;
+  color: #F9F2EA;
+  
+}
+
+.output {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.output > section {
+  background-color: #87A59D;
+  color: #242934;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #383F51;
+  text-align: center;
+  width: 10%
+}
