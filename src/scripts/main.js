@@ -8,9 +8,10 @@ domForm.createForm(domForm.formArray)
 contactList.getAndRender()
 
 // function to create new contact upon submission-- prevent page from reloading; gather entered form data; post new entry to API, then post all to DOM
-document.addEventListener("submit", (e) => {
+$(document).submit((e) => {
   e.preventDefault();
   const currentContact = domForm.generateContact()
   domForm.collectAndPost(currentContact).then(()=> contactList.getAndRender())
+  domForm.resetForm()
 
 })

@@ -6,8 +6,7 @@ import domPost from "./contact"
 
 const contactList = {
   renderContacts(array) {
-    const article = document.querySelector(".output")
-    article.innerHTML = ""
+    $(".output").html("")
     array.forEach((contact) => {
       domPost(contact)
     })
